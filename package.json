@@ -11,7 +11,8 @@
     "@lezer/javascript": "^1.5.1",
     "@motion-canvas/2d": "^3.17.2",
     "@motion-canvas/core": "^3.17.2",
-    "@motion-canvas/ffmpeg": "^1.1.0"
+    "@motion-canvas/ffmpeg": "^1.1.0",
+    "audioconcat": "^0.1.4"
   },
   "devDependencies": {
     "@motion-canvas/ui": "^3.17.2",

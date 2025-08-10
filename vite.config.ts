@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 import fg from "fast-glob";
 import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
+import ffmpeg from "@motion-canvas/ffmpeg";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const projects = fg
@@ -21,5 +22,6 @@ export default defineConfig({
     motionCanvas({
       project: projects,
     }),
+    ffmpeg(),
   ],
 });
